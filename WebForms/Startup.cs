@@ -1,7 +1,7 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(WebForms.Startup))]
+[assembly: OwinStartup(typeof(WebForms.Startup))]
 namespace WebForms
 {
     public partial class Startup {
